@@ -2,26 +2,23 @@ import { VerticalFeatureRow } from '../feature/VerticalFeatureRow';
 import { Section } from '../layout/Section';
 
 const VerticalFeatures = () => (
-  <Section
-    title="Your title here"
-    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada nisi tellus, non imperdiet nisi tempor at."
-  >
+  <Section title="" description="">
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
+      title="Fasilitas Terbaik"
+      description="Nikmati berbagai fasilitas modern yang mendukung kegiatan belajarmu dan aktivitas sehari-hari."
       image="/assets/images/S__8404996.jpg"
       imageAlt="First feature alt text"
     />
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
+      title="Biaya Terjangkau"
+      description="Temukan tempat tinggal dengan biaya yang sesuai dengan anggaran mahasiswa tanpa mengorbankan kenyamanan."
       image="/assets/images/S__8404998.jpg"
       imageAlt="Second feature alt text"
       reverse
     />
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
+      title="Komunitas Aktif"
+      description="Bergabunglah dengan komunitas mahasiswa yang dinamis dan dapatkan teman-teman baru dari berbagai jurusan dan universitas."
       image="/assets/images/S__8405021.jpg"
       imageAlt="Third feature alt text"
     />
